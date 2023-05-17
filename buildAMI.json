@@ -1,7 +1,7 @@
 {
     "builders": [
         {
-            "ami_name"      : "raj-test-ami-{{timestamp}}",
+            "ami_name"      : "raj-ion-ami-{{timestamp}}",
             "instance_type" : "t2.micro",
             "region"        : "us-east-2",
             "source_ami"    : "ami-0a695f0d95cefc163",
